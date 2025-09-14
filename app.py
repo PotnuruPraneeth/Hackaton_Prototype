@@ -56,6 +56,7 @@ For each generated test case, you MUST strictly adhere to the following structur
 1.  Generate a "Functional" test case that validates the primary success scenario (the "happy path").
 2.  You MUST also generate at least one "Negative" test case (e.g., testing invalid data input, incorrect permissions).
 3.  If applicable, generate an "Edge Case" test case (e.g., testing boundary limits, zero values, special characters).
+4.  show it in jason format also for jira integration.
 
 Here is the requirement to be tested:
 
