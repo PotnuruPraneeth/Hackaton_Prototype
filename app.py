@@ -1,5 +1,4 @@
 import streamlit as st
-import vertexai
 import google.generativeai as genai
 import os
 
