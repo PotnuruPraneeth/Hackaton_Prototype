@@ -76,7 +76,8 @@ def generate_test_cases(req_id: str, req_text: str, output_container):
 
     try:
         # Correct and compatible
-        model = genai.GenerativeModel('gemini-pro')
+        # Correct for the Vertex AI API endpoint
+        model = genai.GenerativeModel('gemini-1.0-pro')
         final_prompt = master_prompt_template.format(req_id=req_id, req_text=req_text)
         response = model.generate_content(final_prompt, stream=True)
 
